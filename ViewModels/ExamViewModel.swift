@@ -7,14 +7,20 @@ class ExamViewModel: ObservableObject {
     @Published var isExamSubmitted: Bool = false
     
     let timerViewModel: TimerViewModel
+    let testType: TestType?
     
-    init(questions: [Question], duration: TimeInterval) {
+    init(questions: [Question], duration: TimeInterval, testType: TestType? = nil) {
         self.questions = questions
+        self.testType = testType
         self.timerViewModel = TimerViewModel(duration: duration)
         
         self.timerViewModel.onTimeUp = { [weak self] in
             self?.submitExam()
         }
+    }
+    
+    var testTitle: String {
+        testType?.rawValue ?? "Mock Test"
     }
     
     var currentQuestion: Question {
