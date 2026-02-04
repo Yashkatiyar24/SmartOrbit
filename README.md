@@ -110,9 +110,9 @@ SmartOrbit/
 
 ---
 
-## 📸 Screenshots
+## 📸 Demo
 
-*Coming soon!* 
+https://github.com/user-attachments/assets/cfc1bde5-1dc2-4947-8d04-18283f85dbac
 
 ---
 
