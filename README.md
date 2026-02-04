@@ -12,6 +12,12 @@ I noticed that most practice apps don't really simulate the pressure of a real e
 
 ---
 
+## 📸 Demo
+
+https://github.com/user-attachments/assets/cfc1bde5-1dc2-4947-8d04-18283f85dbac
+
+---
+
 ## ✨ Features
 
 ### 🔐 Authentication
@@ -107,12 +113,6 @@ SmartOrbit/
 | Combine | Reactive data binding |
 | MVVM | Clean architecture pattern |
 | Swift 5.10+ | Latest Swift features |
-
----
-
-## 📸 Demo
-
-https://github.com/user-attachments/assets/cfc1bde5-1dc2-4947-8d04-18283f85dbac
 
 ---
 
